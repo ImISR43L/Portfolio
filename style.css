@@ -1,7 +1,6 @@
-/* Variáveis de Cores e Fontes */
 :root {
-  --primary-color: #61dafb; /* Azul React */
-  --secondary-color: #282c34; /* Fundo React */
+  --primary-color: #61dafb;
+  --secondary-color: #282c34;
   --accent-color: #20232a;
   --text-light: #ffffff;
   --text-dark: #333333;
@@ -33,7 +32,6 @@ ul {
   list-style: none;
 }
 
-/* Layout */
 .container {
   padding: 5rem 2rem;
   max-width: 1200px;
@@ -61,7 +59,6 @@ h2::after {
   margin: 10px auto 0;
 }
 
-/* Navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -91,7 +88,6 @@ h2::after {
   color: var(--primary-color);
 }
 
-/* Hero Section */
 .hero {
   height: 100vh;
   background: linear-gradient(rgba(40, 44, 52, 0.9), rgba(40, 44, 52, 0.9)),
@@ -136,7 +132,6 @@ h2::after {
   box-shadow: 0 5px 15px rgba(97, 218, 251, 0.4);
 }
 
-/* Grid de Projetos */
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -205,7 +200,6 @@ h2::after {
   color: #fff;
 }
 
-/* Habilidades */
 .skills-list {
   display: flex;
   justify-content: center;
@@ -223,7 +217,6 @@ h2::after {
   border-left: 4px solid var(--primary-color);
 }
 
-/* Footer */
 footer {
   background: var(--secondary-color);
   color: var(--text-light);
@@ -246,7 +239,6 @@ footer {
   text-decoration: underline;
 }
 
-/* Responsividade */
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
